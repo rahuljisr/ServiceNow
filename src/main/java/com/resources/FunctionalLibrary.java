@@ -224,9 +224,11 @@ public class FunctionalLibrary {
 		} catch (Exception e) {
 			Reporter.addStepLogInfo("failed to enter" + value + "into"
 					+ "textbox " + e.toString());
-		}*/
+		}*///
 			System.out.println(value
 			+ " --entered into textbox successfully");
+			System.out.println(value
+					+ " --entered into textbox successfully");
 
 	}
 
